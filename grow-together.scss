@@ -1,0 +1,18 @@
+.grow-together-container {
+  background: url("../images/images/bg-section-top-mobile-1.svg") no-repeat
+    center top/contain;
+  height: 100%;
+
+  .grow-together {
+    img {
+      object-fit: contain;
+      height: 200px;
+      // width: 100%;
+    }
+    margin-top: 100px;
+    // background: url("../images/images/illustration-grow-together.svg") no-repeat
+    //   center center/contain;
+    // background-color: red;
+  }
+   
+}

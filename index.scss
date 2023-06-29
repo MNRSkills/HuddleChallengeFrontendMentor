@@ -1,0 +1,41 @@
+@import "navbar";
+@import "mockup";
+@import "hero-wrapper";
+@import "grow-together";
+
+// $red-bg: red;
+// $pink: hsl(322, 100%, 66%);
+// $LightPink: hsl(321, 100%, 78%);
+// $LightRed: hsl(0, 100%, 63%);
+
+// $VeryDarkCyan: hsl(192, 100%, 9%);
+// $VeryPaleBlue: hsl(207, 100%, 98%);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 120px;
+}
+
+p {
+  font-size: 20px;
+  color: $red-bg;
+}
+
+.stats-com-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .stats {
+    padding: 10px 40px;
+
+    h1 {
+      font-size: 3.8rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

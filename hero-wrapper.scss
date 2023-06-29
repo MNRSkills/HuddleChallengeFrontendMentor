@@ -1,0 +1,39 @@
+@import "variables";
+
+.section-wrapper {
+  // background-color: $color-white;
+  padding: 50px 20px;
+  margin: 0 auto;
+
+  .build-hero {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: $VeryDarkCyan;
+    }
+    .get-started-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      h5 {
+        background-color: $pink;
+        color: $VeryPaleBlue;
+        margin: 3px;
+        padding: 18px 34px;
+        border-radius: 17px;
+      }
+    }
+  }
+}
